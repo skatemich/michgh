@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="description" content="RGB and CMYK Blood">
+
+    <meta property="og:title" content="Hello world">
+    <meta property="og:description" content="Front-end UI Designer 2016">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.michgh.com">
+    <meta property="og:image" content="http://michgh.com/images/michgh.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" href="http://michgh.com/images/apple-touch-icon.png">
+    <link rel="icon" href="http://michgh.com/images/fav1.png">
+
+    <title>Michgh</title>
+    <link href='https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kameron" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+        <div id="myDIV" class="project-info_content">
+            <p><strong>_</strong><br><strong>Michel González</strong> <br>
+                <span>Front-End Dev + UI Designer</span><br>
+                <a onclick="desplegar('Loran')" class="Project-Intro">view more</a>
+            </p>
+            <div></div>
+        <div class="me"></div>
+        </div>
+        <div class=Nav>
+            <a onclick="desplegar('myDIV')" class="Nav-Logo">Michel Gonzalez</a>
+            <a onclick="desplegar('myDIV')" class="Nav-X">&times;</a>
+            <a id="open" class="Nav-Menu">More Projects</a>
+            <a onclick="desplegar('anterior')" class="Nav-Prev">preview</a>
+            <a onclick="desplegar('siguiente')" class="Nav-Next">next</a>
+        </div>
+        <div class="Menu">
+            <div class="Menu-close">&times;</div>
+                <ul class="Menu-list">
+                    <li class="Menu-item">
+                        <span class="Menu-text"><a onclick="desplegar('Loran')" >Lorant</a></span>
+                        <div class="Menu-line"></div>
+                        <div class="Menu-number">(1)</div>
+                    </li>
+                    <li class="Menu-item">
+                        <span class="Menu-text"><a>Dental</a></span>
+                        <div class="Menu-line"></div>
+                        <div class="Menu-number">(3)</div>
+                    </li>
+                </ul>
+                <ul class="Menu-list Menu-list--right">
+                    <li class="Menu-item">
+                        <span class="Menu-text"><a onclick="desplegar('Conmu')">Conmutador</a></span>
+                        <div class="Menu-line"></div>
+                        <div class="Menu-number">(2)</div>
+                    </li>
+                    <li class="Menu-item">
+                        <span class="Menu-text"><a>Logofolio</a></span>
+                        <div class="Menu-line"></div>
+                        <div class="Menu-number">(4)</div>
+                    </li>
+                </ul>
+        </div>
+        <div id="Loader" class="Loader">
+            <div class="preloader">
+                <div class="Random">
+                    <h1 class="heading" data-target-resolver></h1>
+                </div>
+            </div>
+        </div>
+        <div id="Loran" class="Content">
+            <div class="Background">
+                <h1>LORANT</h1>
+                <p>Website, IOS/Android app, for one of the most important
+                    Insurance broker and actuarial consultant from Mexico.</p>
+                <a href="http://www.lorantmms.mx">website</a>
+            </div>
+            <div class="Container Section-1">
+                <span class="Section-Item1">-<br>Style&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <div class="Section-Item2">
+                    <span id="Color-1"><p>GRAY</p><h5>f2f2f2</h5></span>
+                    <span id="Color-2"><p>BLACK</p><h5>1f2223</h5></span>
+                    <span id="Color-3"><p>RED</p><h5>ab162b</h5></span>
+                </div>
+                <div class="Text">
+                    <oswald class="Tlo Osw">
+                        <h2>Oswald</h2>
+                        <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br><br>1234567890</p>
+                    </oswald>
+                    <rockwell class="Tlo Rock">
+                        <h2>Rockwell</h2>
+                        <p>ABCDEFGHIJKLMNOPQRST<br><br>UVWXYZ1234567890</p>
+                    </rockwell>
+                    <aside class="aside aside-1"></aside>
+                    <aside class="aside aside-2"></aside>
+                </div>
+                <span class="Section-Item3">-<br>01</span>
+            </div>
+            <div class="Container Section-2">
+                <span class="Section-Item1">-<br>Website</span>
+                <span class="Section-Item3">-<br>02</span>
+                    <video poster="http://michgh.com/folio/images/lorantweb.png" id="bgvid" playsinline autoplay muted loop>
+                    <source src="http://michgh.com/images/lorantweb.webm" type="video/webm">
+                    <source src="http://michgh.com/images/lorantweb.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="Container Section-3">
+                <span class="Section-Item1">-<br>UI / CMS</span>
+                <span class="Section-Item3">-<br>03</span>
+            </div>
+            <div class="Footer-Bar">
+                <ul class="Flex-Container">
+                        <li id="Space1" class="Flex-Item"></li>
+                        <li class="Flex-Item"><a onclick="desplegar('myDIV')"><img src="images/logo.png"></a></li>
+                        <li class="Flex-Item"><h4><strong>DEVELOPER</strong></h4>Daniel Rocha</li>
+                        <li class="Flex-Item"><h4><strong>WEB DESIGN</strong></h4>Michel Gonzalez</li>
+                        <li class="Flex-Item">
+                            <span class="Icons">
+                                <ul>
+                                    <li>
+                                        <a href="https://ca.linkedin.com/in/michgonzalezherrera">
+                                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.behance.net/michgonzalez">
+                                            <i class="fa fa-behance" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/skatemich">
+                                            <i class="fa fa-github-alt" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                </span>
+                        </li>
+                        <li id="Space2" class="Flex-Item"></li>
+                </ul>
+            </div>
+        </div>
+        <div id="Conmu" class="Content">
+            <div class="Background">
+                <h1>CONMUTADOR</h1>
+                <p>Website, for a new comunication platform.</p>
+                <a href="http://www.michgh.com/work/conmutador/">website</a>
+            </div>
+            <div class="Container Section-1">
+                <span class="Section-Item1">-<br>Style&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><div class="Section-Item2">
+                <span id="Color-4"><p>ORANGE</p><h5>f05a28</h5></span>
+                <span id="Color-5"><p>BLUE</p><h5>01283f</h5></span>
+                <span id="Color-6"><p>D BLUE</p><h5>011420</h5></span>
+            </div>
+                <div class="Text">
+                    <oswald class="Tlo Otra">
+                        <h2>Otra</h2>
+                        <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br><br>1234567890</p>
+                    </oswald>
+                    <rockwell class="Tlo Robo">
+                        <h2>Roboto</h2>
+                        <p>ABCDEFGHIJKLMNOPQRST<br><br>UVWXYZ1234567890</p>
+                    </rockwell>
+                    <aside class="aside aside-1"></aside>
+                    <aside class="aside aside-2"></aside>
+                </div>
+                <span class="Section-Item3">-<br>01</span>
+            </div>
+            <div class="Container Section-2">
+                <span class="Section-Item1">-<br>Website</span>
+                <span class="Section-Item3">-<br>02</span>
+                <video poster="http://michgh.com/images/conmutador.png" id="bgvid" playsinline autoplay muted loop>
+                    <source src="http://michgh.com/images/conmutador.webm" type="video/webm">
+                    <source src="http://michgh.com/images/conmutador.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="Container Section-3">
+                <span class="Section-Item1">-<br>UI / CMS</span>
+                <span class="Section-Item3">-<br>03</span>
+            </div><div class="Footer-Bar">
+            <ul class="Flex-Container">
+                <li id="Space1" class="Flex-Item"></li>
+                <li class="Flex-Item"><a onclick="desplegar('myDIV')"><img src="images/logo.png"></a></li>
+                <li class="Flex-Item"><h4><strong>DEVELOPER</strong></h4>Michel Gonzalez</li>
+                <li class="Flex-Item"><h4><strong>WEB DESIGN</strong></h4>Michel Gonzalez</li>
+                <li class="Flex-Item">
+                            <span class="Icons">
+                                <ul>
+                                    <li>
+                                        <a href="https://ca.linkedin.com/in/michgonzalezherrera">
+                                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.behance.net/michgonzalez">
+                                            <i class="fa fa-behance" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/skatemich">
+                                            <i class="fa fa-github-alt" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                </span>
+                </li>
+                <li id="Space2" class="Flex-Item"></li>
+            </ul>
+        </div>
+        </div>
+        </div>
+        <div class="Footer-Bottom">
+            <p>© Copyright 2016.</p>
+        </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/javaScript.js"></script>
+</body>
+</html>
