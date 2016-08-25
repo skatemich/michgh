@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="description" content="RGB and CMYK Blood">
+
+    <meta property="og:title" content="Hello world">
+    <meta property="og:description" content="Front-end UI Designer 2016">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.michgh.com">
+    <meta property="og:image" content="http://michgh.com/images/michgh.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" href="http://michgh.com/images/apple-touch-icon.png">
+    <link rel="icon" href="http://michgh.com/images/fav1.png">
+
+    <title>Michgh</title>
+    <link href='https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+    <div id="myDIV" class="project-info_content">
+        <p><strong>_</strong><br><strong>Michel González</strong> <br>
+            <span>Front-End Dev + UI Designer</span><br>
+            <a onclick="desplegar('Loran')" class="Project-Intro">view more</a>
+        </p>
+    <div class="me"></div>
+    </div>
+    <div class=Nav>
+        <a onclick="desplegar('myDIV')" class="Nav-Logo">Michel Gonzalez</a>
+        <a onclick="desplegar('myDIV')" class="Nav-X">&times;</a>
+        <a id="open" class="Nav-Menu">More Projects</a>
+        <a onclick="desplegar('anterior')" class="Nav-Prev">preview</a>
+        <a onclick="desplegar('siguiente')"class="Nav-Next">next</a>
+    </div>
+    <div class="Menu">
+        <div class="Menu-close">&times;</div>
+            <ul class="Menu-list">
+                <li class="Menu-item">
+                    <span class="Menu-text"><a onclick="desplegar('Loran')" >Lorant</a></span>
+                    <div class="Menu-line"></div>
+                    <div class="Menu-number">(1)</div>
+                </li>
+                <li class="Menu-item">
+                    <span class="Menu-text">Dental</span>
+                    <div class="Menu-line"></div>
+                    <div class="Menu-number">(3)</div>
+                </li>
+            </ul>
+            <ul class="Menu-list Menu-list--right">
+                <li class="Menu-item">
+                    <span class="Menu-text"><a onclick="desplegar('Conmu')">Conmutador</a></span>
+                    <div class="Menu-line"></div>
+                    <div class="Menu-number">(2)</div>
+                </li>
+                <li class="Menu-item">
+                    <span class="Menu-text"><a onclick="desplegar('Conmu')">Logofolio</a></span>
+                    <div class="Menu-line"></div>
+                    <div class="Menu-number">(4)</div>
+                </li>
+            </ul>
+    </div>
+    <div id="Loader" class="Loader">
+        <div class="preloader">
+            <div class="Random">
+                <h1 class="heading" data-target-resolver></h1>
+            </div>
+        </div>
+    </div>
+    <div id="Loran" class="Content">
+        <div class="Background">
+            <h1>LORANT</h1>
+            <p>Website, IOS/Android app, for one of the most important
+                Insurance broker and actuarial consultant from Mexico.</p>
+            <a href="http://www.lorantmms.mx">website</a>
+        </div>
+        <div class="Container Section-1">
+            <span class="Section-Item1">-<br>Style&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <span class="Section-Item3">-<br>01</span>
+        </div>
+        <div class="Container Section-2">
+            <span class="Section-Item1">-<br>Website</span>
+            <span class="Section-Item3">-<br>02</span>
+            <video poster="http://michgh.com/folio/images/lorantweb.png" id="bgvid" playsinline autoplay muted loop>
+                <source src="http://michgh.com/images/lorantweb.webm" type="video/webm">
+                <source src="http://michgh.com/images/lorantweb.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="Container Section-3">
+        <span class="Section-Item1">-<br>UI / CMS</span>
+        <span class="Section-Item3">-<br>03</span>
+    </div>
+    </div>
+    <div id="Conmu" class="Content">
+        <div class="Background">
+            <h1>LORANT</h1>
+            <p>Website, IOS/Android app, for one of the most important
+                Insurance broker and actuarial consultant from Mexico.</p>
+            <a href="http://www.lorantmms.mx">website</a>
+        </div>
+        <div class="Container Section-1">
+            <span class="Section-Item1">-<br>Style&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <span class="Section-Item3">-<br>01</span>
+        </div>
+        <div class="Container Section-2">
+            <span class="Section-Item1">-<br>Website</span>
+            <span class="Section-Item3">-<br>02</span>
+            <video poster="http://michgh.com/folio/images/lorantweb.png" id="bgvid" playsinline autoplay muted loop>
+                <source src="http://michgh.com/images/conmutador.webm" type="video/webm">
+                <source src="http://michgh.com/images/conmutador.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="Container Section-3">
+            <span class="Section-Item1">-<br>UI / CMS</span>
+            <span class="Section-Item3">-<br>03</span>
+        </div>
+    </div>
+        <div class="Footer-Bar">
+            <ul>
+                <li>
+                    <span class="Menu-text">© Copyright 2014 All Rights Reserved.</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/javaScript.js"></script>
+    </body>
+    </html>
